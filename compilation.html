@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compilation | Project</title>
+    <link rel="stylesheet" href="compilation.css">
+</head>
+<body>
+
+    <header>
+        <h1>Project Compilation</h1>
+        <nav>
+            <p>User Data | Media Gallery | Audio Player</p>
+        </nav>
+    </header>
+
+    <hr> <main>
+        <section>
+            <h2>Student Information</h2>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shreyas</td>
+                        <td>17</td>
+                        <td>Pune</td>
+                    </tr>
+                    <tr>
+                        <td>Swapnil</td>
+                        <td>17</td>
+                        <td>Pune</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    
+                    <p>
+                        <label for="name">Full Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="e.g. Shreyas" required>
+                    </p>
+
+                    <p>
+                        <label for="contact">Phone Number:</label><br>
+                        <input type="tel" id="contact" name="contact" placeholder="9876543210" pattern="[0-9]{10}">
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" placeholder="name@email.com" required>
+                    </p>
+
+                    <button type="submit">Submit Information</button>
+                    <button type="reset">Clear Form</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <h2>Featured Image</h2>
+            <figure>
+                <img src="https://images.pexels.com/photos/36493352/pexels-photo-36493352.jpeg" 
+                     alt="Scenic landscape from Pexels" 
+                     width="400">
+                <figcaption>Figure 1: Sample landscape visual.</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <section>
+            <h3>Audio Resource</h3>
+            <audio controls preload="metadata">
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <p><small>&copy; 2026 Student Compilation Project</small></p>
+    </footer>
+
+</body>
+</html>

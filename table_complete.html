@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Elements Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #34495e;
+        }
+        td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+        tr:hover {
+            background-color: #bdc3c7;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        code {
+            background-color: #f8f8f8;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML Table Elements Example</h2>
+    
+    <h3>Table Structure Explanation:</h3>
+    <ul>
+        <li><code>&lt;table&gt;</code> - Container for the entire table</li>
+        <li><code>&lt;tr&gt;</code> - Table Row (contains <code>&lt;th&gt;</code> or <code>&lt;td&gt;</code>)</li>
+        <li><code>&lt;th&gt;</code> - Table Header (bold, typically used in first row)</li>
+        <li><code>&lt;td&gt;</code> - Table Data (regular cell data)</li>
+    </ul>
+
+    <h3>Complete Table Example:</h3>
+    <table>
+        <tr>
+            <th>Student Name</th>
+            <th>Roll Number</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Shreyas Kumbhar</td>
+            <td>101</td>
+            <td>Mathematics</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Aarav Patel</td>
+            <td>102</td>
+            <td>Science</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>Priya Singh</td>
+            <td>103</td>
+            <td>English</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>Vikram Sharma</td>
+            <td>104</td>
+            <td>History</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Ananya Gupta</td>
+            <td>105</td>
+            <td>Geography</td>
+            <td>90</td>
+        </tr>
+    </table>
+
+    <h3>HTML Code:</h3>
+    <pre style="background-color: #f8f8f8; padding: 15px; border-radius: 5px; overflow-x: auto;">
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Student Name&lt;/th&gt;
+        &lt;th&gt;Roll Number&lt;/th&gt;
+        &lt;th&gt;Subject&lt;/th&gt;
+        &lt;th&gt;Marks&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Shreyas Kumbhar&lt;/td&gt;
+        &lt;td&gt;101&lt;/td&gt;
+        &lt;td&gt;Mathematics&lt;/td&gt;
+        &lt;td&gt;95&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Aarav Patel&lt;/td&gt;
+        &lt;td&gt;102&lt;/td&gt;
+        &lt;td&gt;Science&lt;/td&gt;
+        &lt;td&gt;88&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Priya Singh&lt;/td&gt;
+        &lt;td&gt;103&lt;/td&gt;
+        &lt;td&gt;English&lt;/td&gt;
+        &lt;td&gt;92&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+    </pre>
+
+</body>
+</html>

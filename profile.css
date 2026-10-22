@@ -1,0 +1,25 @@
+.name{
+    color: blue;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+#year{
+    color: green;
+    font-size: 50px;
+    text-align:center;
+    padding: 20px;
+}
+.city{
+    color: red;
+    text-align:center;
+}
+#college{
+    color: rgb(0, 162, 255);
+    text-align:center;
+}
