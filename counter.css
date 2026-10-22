@@ -1,0 +1,81 @@
+/* General Reset & Page Setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e2e8f0 0%, #c7d2fe 100%);
+  color: #1e293b;
+}
+
+/* Card Container Styling */
+#name {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #334155;
+}
+
+#counter {
+  font-size: 5rem;
+  font-weight: 800;
+  margin: 1.5rem 0 2rem;
+  color: #0f172a;
+  transition: transform 0.15s ease, color 0.2s ease;
+}
+
+/* Button Layout & Base Styles */
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 24px;
+  margin: 0 6px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Button Specific Colors */
+#decrementBtn {
+  background-color: #ef4444;
+}
+
+#decrementBtn:hover {
+  background-color: #dc2626;
+}
+
+#resetBtn {
+  background-color: #64748b;
+}
+
+#resetBtn:hover {
+  background-color: #475569;
+}
+
+#incrementBtn {
+  background-color: #10b981;
+}
+
+#incrementBtn:hover {
+  background-color: #059669;
+}
